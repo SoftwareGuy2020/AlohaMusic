@@ -26,7 +26,8 @@
         android:layout_height="0dp"
         android:id="@+id/ukuleleButton"
         android:layout_weight="1"
-        android:onClick="playMedia" />
+        android:onClick="playMedia"
+        android:textSize="18sp" />
 
     <ImageView
         android:layout_width="match_parent"
@@ -42,7 +43,8 @@
         android:layout_height="0dp"
         android:id="@+id/ipuButton"
         android:layout_weight="1"
-        android:onClick="playMedia" />
+        android:onClick="playMedia"
+        android:textSize="18sp" />
 
     <VideoView
         android:layout_width="match_parent"
@@ -57,6 +59,7 @@
         android:layout_height="0dp"
         android:id="@+id/hulaButton"
         android:layout_weight="1"
-        android:onClick="playMedia" />
+        android:onClick="playMedia"
+        android:textSize="18sp" />
 
 </LinearLayout>
