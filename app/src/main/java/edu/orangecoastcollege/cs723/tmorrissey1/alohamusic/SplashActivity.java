@@ -7,8 +7,16 @@ import android.support.v7.app.AppCompatActivity;
 import java.util.Timer;
 import java.util.TimerTask;
 
+/**
+ * Controller for activity_splash.xml
+ *
+ */
 public class SplashActivity extends AppCompatActivity {
 
+    /**
+     * Loads the view to display a splash screen when the app first starts
+     * @param savedInstanceState last saved instance state
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

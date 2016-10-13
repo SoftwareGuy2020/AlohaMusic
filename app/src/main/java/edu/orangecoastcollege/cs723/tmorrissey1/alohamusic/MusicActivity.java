@@ -9,6 +9,9 @@ import android.widget.Button;
 import android.widget.MediaController;
 import android.widget.VideoView;
 
+/**
+ * Manages inputs/outputs from the view
+ */
 public class MusicActivity extends AppCompatActivity {
 
     private MediaPlayer ukuleleMP;
@@ -20,6 +23,10 @@ public class MusicActivity extends AppCompatActivity {
 
     private VideoView hulaVideoView;
 
+    /**
+     * Perform initialization of all fragments and loaders.
+     * @param savedInstanceState last saved instance state
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,6 +45,10 @@ public class MusicActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * Plays the media associated with the view that was clicked
+     * @param v
+     */
     public void playMedia(View v) {
 
         switch (v.getId()) {
